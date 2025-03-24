@@ -18,7 +18,7 @@ function AllBeersPage() {
         setBeers(response.data);
       })
       .catch((error) => {
-        console.error("Error fetching beers:", error);
+        console.error("Error fetching beers: / Error pidiendo los datos de las cervezas: ", error);
       });
   }, []);
 
